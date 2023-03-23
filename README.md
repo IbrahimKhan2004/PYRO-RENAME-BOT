@@ -18,7 +18,7 @@
 
 ## Deploy To Koyeb
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[DB_URL]&env[DB_NAME]=pyro-botz&env[FORCE_SUB]&env[START_PIC]&env[PORT]=8080&run_command=python%20bot.py&branch=main&name=pyro-rename) 
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[WEBHOOK]=True&env[ADMIN]&env[DB_URL]&env[DB_NAME]=pyro-botz&env[FORCE_SUB]&env[START_PIC]&env[PORT]=8080&run_command=python%20bot.py&branch=main&name=pyro-rename) 
 
 ## Deploy To Render
 
@@ -28,11 +28,11 @@
 
 ## Deploy To Railway
 
-<a href="https://railway.app/new/template/OX7-wG"><img src="https://railway.app/button.svg" alt="Deploy"></a>
+<a href="https://graph.org/file/fabd75cd5043d2cfdc13d.jpg"><img src="https://railway.app/button.svg" alt="Deploy"></a>
 
 ## Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT/blob/heroku"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 
 
@@ -42,7 +42,9 @@
 
 * `API_ID` - From my.telegram.org 
 
-* `API_HASH` - From my.telegram.org 
+* `API_HASH` - From my.telegram.org
+
+* `WEBHOOK` - if your server is need web service! value = `True` else value = `False`
 
 * `ADMIN` - AUTH or bot controllers id's multiple id use space to split 
 
